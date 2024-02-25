@@ -1,0 +1,5 @@
+[shell]
+program = "ubuntu"
+
+[env]
+TERM = "xterm-256color"

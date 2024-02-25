@@ -1,0 +1,12 @@
+theme = "sonokai"
+
+[editor]
+bufferline = "multiple"
+line-number = "relative"
+true-color = true
+rulers = [120]
+
+[keys.normal."space"]
+";" = "save_selection"
+n = "jump_forward"
+N = "jump_backward"
