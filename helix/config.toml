@@ -1,10 +1,15 @@
-theme = "sonokai"
+theme = "gruvbox_dark_soft"
 
 [editor]
+idle-timeout = 50
 bufferline = "multiple"
 line-number = "relative"
 true-color = true
 rulers = [120]
+lsp.display-inlay-hints = true
+
+[keys.normal]
+A-w = ":write"
 
 [keys.normal."space"]
 ";" = "save_selection"
