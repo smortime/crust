@@ -7,11 +7,10 @@ line-number = "relative"
 true-color = true
 rulers = [120]
 lsp.display-inlay-hints = true
+popup-border = "all"
 
 [keys.normal]
 A-w = ":write"
 
 [keys.normal."space"]
 ";" = "save_selection"
-n = "jump_forward"
-N = "jump_backward"
